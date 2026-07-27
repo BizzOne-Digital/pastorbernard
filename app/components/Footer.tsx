@@ -13,11 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: "rgba(201,168,76,0.15)", border: "1px solid rgba(201,168,76,0.35)" }}>
-                <svg viewBox="0 0 40 40" fill="none" className="w-6 h-6">
-                  <path d="M14 20h12M20 14v12" stroke="#C9A84C" strokeWidth="2.5" strokeLinecap="round"/>
-                </svg>
-              </div>
+              <img src="/logo.png" alt="Pastor Bernard Ajayi Ministries" className="w-10 h-10 rounded-full object-cover" style={{ border: "1px solid rgba(201,168,76,0.35)" }} />
               <div>
                 <p className="font-display font-bold" style={{ color: "white", fontSize: "1.05rem" }}>Pastor Bernard Ajayi</p>
                 <p style={{ color: "#C9A84C", fontSize: "0.6rem", fontWeight: 600, letterSpacing: "0.18em" }}>MINISTRIES</p>

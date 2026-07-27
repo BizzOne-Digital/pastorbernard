@@ -37,12 +37,7 @@ export default function Navbar() {
       <div className="container-wide py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group" style={{ textDecoration: "none" }}>
-          <div className="w-10 h-10 rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-105" style={{ background: "#1B4332" }}>
-            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6">
-              <path d="M14 20h12M20 14v12" stroke="#C9A84C" strokeWidth="2.5" strokeLinecap="round"/>
-              <circle cx="20" cy="20" r="3" fill="#C9A84C" opacity="0.5"/>
-            </svg>
-          </div>
+          <img src="/logo.png" alt="Pastor Bernard Ajayi Ministries" className="w-10 h-10 rounded-full object-cover shadow-lg transition-transform duration-300 group-hover:scale-105" />
           <div>
             <p className="font-display font-bold leading-tight" style={{ color: solid ? "#1B4332" : "white", fontSize: "1.05rem" }}>Pastor Bernard</p>
             <p style={{ color: "#C9A84C", fontSize: "0.6rem", fontWeight: 600, letterSpacing: "0.18em" }}>AJAYI MINISTRIES</p>
